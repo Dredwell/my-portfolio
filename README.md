@@ -2,7 +2,7 @@
 
 # My-Portfolio
 
-> Personal Portfolio
+> This is my personal website, building with HTML and CSS.
 
 ## Built With
 
