@@ -12,7 +12,8 @@
 
 ## Getting Started
 
-Open index.html in your browser
+Clone the repository from https://github.com/Dredwell/My-Portfolio/ 
+and then open index.html in your browser.
 
 
 ## Authors
