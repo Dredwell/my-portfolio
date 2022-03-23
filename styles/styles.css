@@ -184,6 +184,10 @@ body {
   color: #3a4a42;
 }
 
+.about-me-button {
+  margin-top: 24px;
+}
+
 .works .works-container .project .project-info-container .see-project-button,
 .about-me-button {
   background-color: #36b37f;
@@ -230,10 +234,6 @@ body {
   color: #42526e;
   text-align: center;
   padding-top: 24px;
-}
-
-.about-me-button {
-  margin-top: 24px;
 }
 
 .skills {
