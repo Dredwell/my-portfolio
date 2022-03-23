@@ -3,6 +3,9 @@
   padding: 0;
 }
 
+body {
+  font-family: 'Inter', sans-serif;
+}
 .toolbar {
   display: flex;
   justify-content: space-between;
@@ -14,7 +17,6 @@
   font-size: 20px;
   margin-left: 24px;
   font-weight: 600;
-  font-family: 'Inter', sans-serif;
   color: #28352f;
 }
 
@@ -46,7 +48,6 @@
   flex-direction: column;
   background-image: url(../media/header-illsutration-mobile@2x.png);
   background-size: cover;
-  font-family: 'Inter', sans-serif;
 }
 
 .headline .title,
@@ -111,7 +112,6 @@
 }
 
 .works .works-title-container h2 {
-  font-family: 'Inter';
   font-weight: 700;
   font-size: 40px;
   line-height: 52px;
@@ -147,7 +147,6 @@
 }
 
 .works .works-container .project .project-info-container .project-title {
-  font-family: 'Inter';
   font-weight: 600;
   font-size: 24px;
   line-height: 32px;
@@ -160,7 +159,6 @@
   display: flex;
   list-style: none;
   justify-content: space-around;
-  font-family: 'Inter';
   font-weight: 600;
   font-size: 12px;
   margin-top: 16px;
@@ -179,7 +177,6 @@
 .about-me-button {
   background-color: #36b37f;
   padding: 12px;
-  font-family: 'Inter';
   font-weight: 500;
   font-size: 17px;
   color: #fff;
@@ -207,7 +204,6 @@
 }
 
 .about-me .about-me-info {
-  font-family: 'Inter';
   font-weight: 400;
   font-size: 20px;
   color: #42526e;
@@ -247,7 +243,6 @@
 
 .skills .skill-container .skill-title {
   margin-top: 64px;
-  font-family: 'Inter';
   font-style: normal;
   font-weight: 600;
   font-size: 24px;
@@ -259,7 +254,6 @@
   flex-wrap: wrap;
   justify-content: center;
   list-style: none;
-  font-family: 'Inter';
   font-weight: 600;
   font-size: 12px;
   margin: 20px 0 72px 0;
@@ -271,7 +265,6 @@
   border-radius: 8px;
   background-color: #fff;
   color: #36b37e;
-  font-family: 'Inter';
   font-weight: 600;
   font-size: 12px;
   margin: 4px;
