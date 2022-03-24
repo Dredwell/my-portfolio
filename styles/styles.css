@@ -87,6 +87,25 @@ body {
   align-items: center;
 }
 
+.languages > * {
+  background-color: #ebf0ee;
+  border-radius: 4px;
+  padding: 8px 12px;
+  margin: 0 3px;
+  font-size: 12px;
+  color: #3a4a42;
+}
+
+.skill-list > * {
+  padding: 12px;
+  border-radius: 8px;
+  background-color: #fff;
+  color: #36b37e;
+  font-weight: 600;
+  font-size: 12px;
+  margin: 4px;
+}
+
 .social-media ul > * {
   margin: 0 10px;
 }
@@ -165,25 +184,6 @@ body {
   margin-top: 16px;
 }
 
-.skill-list > * {
-  padding: 12px;
-  border-radius: 8px;
-  background-color: #fff;
-  color: #36b37e;
-  font-weight: 600;
-  font-size: 12px;
-  margin: 4px;
-}
-
-.languages > * {
-  background-color: #ebf0ee;
-  border-radius: 4px;
-  padding: 8px 12px;
-  margin: 0 3px;
-  font-size: 12px;
-  color: #3a4a42;
-}
-
 .about-me-button {
   margin-top: 24px;
 }
@@ -203,7 +203,7 @@ body {
 .see-project-button:hover,
 .about-me-button:hover {
   cursor: pointer;
-  box-shadow: 0px 8px 16px rgba(54, 179, 127, 0.24);
+  box-shadow: 0 8px 16px rgba(54, 179, 127, 0.24);
 }
 
 .see-project-button:active,
