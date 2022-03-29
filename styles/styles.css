@@ -303,7 +303,7 @@ body {
 
 .name,
 .email,
-.message{
+.message {
   width: 100%;
   margin-top: 24px;
   border: 1px solid #d0d9d4;
@@ -311,7 +311,7 @@ body {
   box-sizing: border-box;
 }
 
-.message{
+.message {
   height: 114px;
   resize: none;
 }
@@ -319,7 +319,7 @@ body {
 .name::placeholder,
 .email::placeholder,
 .message::placeholder {
-  font-family: 'Inter';
+  font-family: 'Inter', sans-serif;
   font-weight: 400;
   font-size: 15px;
 }
