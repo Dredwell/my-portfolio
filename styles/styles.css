@@ -189,7 +189,8 @@ body {
 }
 
 .see-project-button,
-.about-me-button {
+.about-me-button,
+.submit-button {
   background-color: #36b37f;
   border: 0;
   padding: 12px;
@@ -292,23 +293,3 @@ body {
   align-items: center;
 }
 
-.contact-form-title {
-  font-weight: 700;
-  font-size: 40px;
-  line-height: 52px;
-  text-align: center;
-  color: #172b4d;
-}
-
-.name,
-.email,
-.message{
-  width: 100%;
-  margin-top: 24px;
-  border: 1px solid #d0d9d4;
-}
-
-.name,
-.email {
-  height: 48px;
-}
