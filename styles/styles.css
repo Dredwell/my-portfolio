@@ -207,8 +207,13 @@ body {
   box-shadow: 0 8px 16px rgba(54, 179, 127, 0.24);
 }
 
+.submit-button:hover {
+  box-shadow: 0 8px 16px rgba(54, 179, 127, 0.24);
+}
+
 .see-project-button:active,
-.about-me-button:active {
+.about-me-button:active,
+.submit-button:active {
   background-color: #008552;
 }
 
@@ -285,6 +290,9 @@ body {
 
 .contact-form {
   margin: 60px 24px 0 24px;
+  background-image: url(../media/illustration-contact-form.svg);
+  background-repeat: no-repeat;
+  background-position: right bottom;
 }
 
 .contact-form form {
@@ -330,7 +338,7 @@ footer {
   align-items: center;
 }
 
-footer .social-media {
+.contact-form .social-media {
   margin-top: 40px;
 }
 
@@ -344,7 +352,7 @@ footer .social-media {
 .indicator2 {
   height: 8px;
   width: 150px;
-  margin-top: 320px;
-  background: #e5e5e5;
+  margin: 320px 0 5px 0;
+  background: #0d151e;
   border-radius: 24px;
 }
