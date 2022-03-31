@@ -374,11 +374,11 @@ footer {
   .toolbar {
     display: none;
   }
-  
+
   .toolbar-desktop {
     display: block;
   }
-  
+
   .toolbar-desktop ul {
     display: flex;
     justify-content: center;
@@ -387,31 +387,31 @@ footer {
     height: 72px;
     font-size: 15px;
   }
-  
+
   .toolbar-desktop ul > * {
     margin: 0 10px;
   }
-  
+
   a:link {
     text-decoration: none;
   }
-  
+
   a:visited {
     text-decoration: none;
   }
-  
+
   a:hover {
     text-decoration: none;
   }
-  
+
   a:active {
     text-decoration: none;
   }
-  
+
   .toolbar-desktop ul > * a {
     color: #344563;
   }
-  
+
   header {
     background-image: url(../media/Header-llustration-desktop.png);
     display: flex;
@@ -420,26 +420,26 @@ footer {
     background-position: 0;
     background-size: cover;
   }
-  
+
   .headline {
     max-width: 920px;
     margin-top: 160px;
   }
-  
+
   .info {
     font-size: 20px;
     padding: 0 75px;
   }
-  
+
   .chevron-down {
     margin-top: 82px;
     margin-bottom: 392px;
   }
-  
+
   .works {
     margin-top: 110px;
   }
-  
+
   .works-container {
     max-width: 1155px;
     grid-template-columns: repeat(3, 1fr);
@@ -449,15 +449,15 @@ footer {
     margin-right: auto;
     margin-top: 52px;
   }
-  
+
   .indicator {
     display: none;
   }
-  
+
   .project-title {
     margin: 0 16px;
   }
-  
+
   .skills {
     max-width: 1155px;
     grid-template-columns: repeat(3, 1fr);
@@ -466,34 +466,34 @@ footer {
     margin-left: auto;
     margin-right: auto;
   }
-  
+
   .skill-container {
     margin: 0;
     align-items: center;
   }
-  
+
   .about-me {
     background-image: url(../media/illustration-about\ me-1-desktop.png), url(../media/illustration-about-me-2-desktop.png);
     margin-top: 192px;
   }
-  
+
   .about-me-info {
     max-width: 920px;
     padding: 0 75px;
     box-sizing: border-box;
     margin-top: 24px;
   }
-  
+
   .indicator2 {
     display: none;
   }
-  
+
   footer {
     background-image: url(../media/illustration-2-contact-form-desktop.svg), url(../media/illustration-2-contact-form-desktop-2.svg), url(../media/illustration-2-contact-form-desktop-3.svg);
     background-repeat: no-repeat, no-repeat, no-repeat;
     background-position: 274px 529px, left 360px, right 223px;
   }
-  
+
   .contact-form {
     max-width: 1155px;
     display: flex;
@@ -501,7 +501,7 @@ footer {
     padding-bottom: 225px;
     border-bottom: 1px solid #dfe1e6;
   }
-  
+
   .contact-form-title {
     max-width: 42%;
     margin-right: 24px;
@@ -509,20 +509,20 @@ footer {
     text-align: left;
     line-height: 52px;
   }
-  
+
   .contact-form form {
     width: 58%;
     margin-top: 50px;
     align-items: flex-start;
   }
-  
+
   footer .social-media {
     margin: 18px 0;
   }
-  
+
   .myemail,
   .indicator2 {
     display: none;
   }
-  
+
 }
