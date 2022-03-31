@@ -301,6 +301,9 @@ header {
 }
 
 footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   background-image: url(../media/illustration-contact-form.svg);
   background-repeat: no-repeat;
   background-position: right 725px;
@@ -346,12 +349,6 @@ footer {
   font-family: 'Inter', sans-serif;
   font-weight: 400;
   font-size: 15px;
-}
-
-footer {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
 }
 
 .contact-form .social-media {
