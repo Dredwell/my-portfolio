@@ -209,6 +209,8 @@ header {
   font-weight: 500;
   font-size: 17px;
   color: #fff;
+  width: 112px;
+  height: 44px;
   margin: 29px 0 24px 0;
   border-radius: 4px;
 }
@@ -524,4 +526,15 @@ footer {
   .indicator2 {
     display: none;
   }
+
+  .transition {
+    transition: width 500ms ease, height 500ms ease;
+  }
+
+  .transition:hover {
+    width: 128px;
+    height: 51px;
+  }
+
 }
+
