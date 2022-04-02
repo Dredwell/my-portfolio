@@ -196,10 +196,6 @@ header {
   margin-top: 16px;
 }
 
-.about-me-button {
-  margin-top: 24px;
-}
-
 .see-project-button,
 .about-me-button,
 .submit-button {
@@ -213,6 +209,12 @@ header {
   height: 44px;
   margin: 29px 0 24px 0;
   border-radius: 4px;
+}
+
+.about-me-button {
+  margin-top: 24px;
+  width: auto;
+  height: auto;
 }
 
 .see-project-button:hover,
@@ -535,6 +537,4 @@ footer {
     width: 128px;
     height: 51px;
   }
-
 }
-
