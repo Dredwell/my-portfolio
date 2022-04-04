@@ -9,6 +9,10 @@
 - HTML
 - CSS
 
+## Live Demo
+
+If you want to see a live demo of this website, please click on the next link:
+https://dredwell.github.io/my-portfolio/
 
 ## Getting Started
 
