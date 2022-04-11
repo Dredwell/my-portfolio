@@ -55,7 +55,7 @@ a:active {
 
 .mobile-menu {
   position: fixed;
-  display: flex;
+  display: none;
   flex-direction: column;
   top: 0;
   height: 100vh;
