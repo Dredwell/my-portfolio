@@ -9,10 +9,10 @@ menuButton.addEventListener('click', () => {
 
 exitButton.addEventListener('click', () => {
   mobileMenu.style.display = 'none';
-})
+});
 
-for(let i = 0; i < navElements.length; i++) {
+for (let i = 0; i < navElements.length; i += 1) {
   navElements[i].addEventListener('click', () => {
-      mobileMenu.style.display = 'none';
-  })
-}
+    mobileMenu.style.display = 'none';
+  });
+};
