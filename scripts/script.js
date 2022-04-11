@@ -15,4 +15,4 @@ for (let i = 0; i < navElements.length; i += 1) {
   navElements[i].addEventListener('click', () => {
     mobileMenu.style.display = 'none';
   });
-};
+}
