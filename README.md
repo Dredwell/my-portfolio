@@ -15,6 +15,8 @@
 If you want to see a live demo of this website, please click on the next link:
 https://dredwell.github.io/my-portfolio/
 
+![Captura de pantalla de 2022-04-11 19-02-08](https://user-images.githubusercontent.com/85886248/162857733-5ce0df12-7a95-4b77-8eea-b1d3693a4856.png)
+
 ## Getting Started
 
 This is an example of how you may give instructions on setting up your project locally. To get a local copy up and running follow these simple example steps.
