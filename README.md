@@ -8,6 +8,7 @@
 
 - HTML
 - CSS
+- JavaScript
 
 ## Live Demo
 
@@ -16,9 +17,16 @@ https://dredwell.github.io/my-portfolio/
 
 ## Getting Started
 
-Clone the repository from https://github.com/Dredwell/My-Portfolio/ 
-and then open index.html in your browser.
+This is an example of how you may give instructions on setting up your project locally. To get a local copy up and running follow these simple example steps.
 
+
+### Prerequisites
+
+- Browser (Google Chrome, Mozilla Firefox, Safari, Edge)
+
+### Instalation
+
+Clone the repository or download the files from https://github.com/Dredwell/My-Portfolio/ and then open index.html in your browser.
 
 ## Authors
 
@@ -27,6 +35,11 @@ and then open index.html in your browser.
 - GitHub: [@Dredwell](https://github.com/Dredwell)
 - Twitter: [@dredwell12](https://twitter.com/dredwell12)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/dredwell-velasquez-462a60160/)
+
+👤 **Marco Antonio Hincapie**
+
+- GitHub: [@AntonioHincapie](https://github.com/AntonioHincapie)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/marco-hincapi%C3%A9-7a76751a3/)
 
 
 ## 🤝 Contributing
