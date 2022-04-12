@@ -33,24 +33,61 @@ header {
   color: #28352f;
 }
 
-.toolbar .logo:link {
+a:link {
   text-decoration: none;
 }
 
-.toolbar .logo:visited {
+a:visited {
   text-decoration: none;
 }
 
-.toolbar .logo:hover {
+a:hover {
   text-decoration: none;
 }
 
-.toolbar .logo:active {
+a:active {
   text-decoration: none;
 }
 
 .menu-button {
   margin-right: 32px;
+}
+
+.mobile-menu {
+  position: fixed;
+  display: none;
+  flex-direction: column;
+  top: 0;
+  height: 100vh;
+  width: 100%;
+  background-color: #fff;
+}
+
+.mobile-menu ul {
+  display: flex;
+  flex-direction: column;
+  margin-left: 28px;
+}
+
+.mobile-menu li {
+  margin-top: 40px;
+  font-weight: 600;
+  font-size: 32px;
+  list-style: none;
+}
+
+.mobile-menu a {
+  color: #3a4a42;
+}
+
+.close-button-container {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 24px;
+}
+
+.mobile-menu li:first-child {
+  margin-top: 15px;
 }
 
 .headline {
