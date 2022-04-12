@@ -235,17 +235,84 @@ a:active {
 
 .see-project-button,
 .about-me-button,
-.submit-button {
+.submit-button,
+.see-live-button,
+.see-source-button {
   background-color: #36b37f;
   border: 0;
   padding: 12px;
   font-weight: 500;
   font-size: 17px;
   color: #fff;
-  width: 112px;
-  height: 44px;
   margin: 29px 0 24px 0;
   border-radius: 4px;
+}
+
+.popup-window {
+  position: absolute;
+  box-sizing: border-box;
+  max-width: 343px;
+  margin: 0 auto 0 auto;
+  left: 0;
+  right: 0;
+  padding: 16px;
+  top: 0;
+  background-color: #fff;
+  display: none;
+  flex-direction: column;
+  border: 1px solid #dfe1e6;
+  border-radius: 16px;
+}
+
+.img-container {
+  position: relative;
+}
+
+.img-container img:first-child{
+  position: absolute;
+  right: 22px;
+  top: 22px;
+}
+
+.popup-title {
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 44px;
+}
+
+.popup-info {
+  font-weight: 400;
+  font-size: 16px;
+  margin-top: 12px;
+}
+
+.popup-window .languages {
+  justify-content: flex-start;
+}
+
+.popup-window .languages li:first-child {
+  margin-left: 0;
+}
+
+.popup-button-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.popup-button-container span {
+  margin-right: 10px;
+}
+
+.see-live-button,
+.see-source-button {
+  display: flex;
+  align-items: center;
+  width: 50%;
+  justify-content: center;
+}
+
+.see-live-button {
+  margin-right: 10px;
 }
 
 .about-me-button {
