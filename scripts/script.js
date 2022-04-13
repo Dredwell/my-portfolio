@@ -88,18 +88,16 @@ const isItLowercase = (email) => {
   const validateEmailLowercase = new RegExp(/[A-Z]/g);
 
   if(validateEmailLowercase.test(email)){
-    return true;
-  } else {
     return false;
+  } else {
+    return true;
   }
-}
-
-
+};
 
 contactForm.addEventListener('submit', (event) => {
   event.preventDefault();
   
-  if(!isItLowercase(emailContactForm.value.trim())){
+  if(isItLowercase(emailContactForm.value.trim())){
     contactForm.submit();
   }
 });
