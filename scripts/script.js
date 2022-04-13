@@ -29,8 +29,8 @@ const language = (index) => {
   for (let j = 0; j < dataProjects[index].tags.length; j += 1) {
     str += `<li>${dataProjects[index].tags[j]}</li>`;
   }
-return str;
-}
+  return str;
+};
 
 const works = () => {
   let str = '';
@@ -42,11 +42,11 @@ const works = () => {
       <ul class="languages">${language(i)}</ul>
       <button type="button" class="see-project-button">See Project</button>
     </div>
-  </div>`
+  </div>`;
   }
 
   return str;
-}
+};
 
 worksSection.innerHTML = works();
 

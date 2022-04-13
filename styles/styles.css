@@ -285,7 +285,7 @@ a:active {
   font-weight: 600;
   font-size: 32px;
   line-height: 44px;
-  color: #172b4d
+  color: #172b4d;
 }
 
 .popup-info {
@@ -324,7 +324,6 @@ a:active {
 
 .see-live-button {
   margin-right: 10px;
-
 }
 
 .popup-background {
@@ -650,7 +649,7 @@ footer {
   .popup-info {
     grid-row: 11 / span 3;
     grid-column: 1 / span 12;
-    line-height: 30px
+    line-height: 30px;
   }
 
   .see-live-button,
