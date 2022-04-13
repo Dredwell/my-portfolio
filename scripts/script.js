@@ -9,6 +9,8 @@ const popupWindow = document.getElementById('popup-window');
 const closeWindow = document.getElementById('close-icon');
 const closeWindowDesktop = document.getElementById('close-icon-desktop');
 const worksSection = document.getElementById('works-container');
+const contactForm = document.getElementById('contact-form');
+const emailContactForm = document.getElementById('email');
 
 menuButton.addEventListener('click', () => {
   mobileMenu.style.display = 'flex';
@@ -81,3 +83,23 @@ for (let i = 0; i < projectButtons.length; i += 1) {
     }
   });
 }
+
+const isItLowercase = (email) => {
+  const validateEmailLowercase = new RegExp(/[A-Z]/g);
+
+  if(validateEmailLowercase.test(email)){
+    return true;
+  } else {
+    return false;
+  }
+}
+
+
+
+contactForm.addEventListener('submit', (event) => {
+  event.preventDefault();
+  
+  if(!isItLowercase(emailContactForm.value.trim())){
+    contactForm.submit();
+  }
+});
