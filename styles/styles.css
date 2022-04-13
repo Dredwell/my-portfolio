@@ -269,7 +269,7 @@ a:active {
   position: relative;
 }
 
-.img-container img:first-child{
+.img-container img:first-child {
   position: absolute;
   right: 20px;
   top: 21px;
@@ -600,7 +600,7 @@ footer {
     align-self: end;
   }
 
-  #close-icon{
+  #close-icon {
     display: none;
   }
 
@@ -627,7 +627,7 @@ footer {
     margin-top: 0;
   }
 
-  .popup-button-container button{
+  .popup-button-container button {
     margin-top: 0;
     margin-bottom: 0;
   }
@@ -640,7 +640,7 @@ footer {
   }
 
   .popup-info {
-    grid-row: 11 / span 3 ;
+    grid-row: 11 / span 3;
     grid-column: 1 / span 12;
   }
 
