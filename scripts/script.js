@@ -11,6 +11,7 @@ const closeWindowDesktop = document.getElementById('close-icon-desktop');
 const worksSection = document.getElementById('works-container');
 const contactForm = document.getElementById('contact-form');
 const emailContactForm = document.getElementById('email');
+const messageError = document.getElementById('message-error');
 
 menuButton.addEventListener('click', () => {
   mobileMenu.style.display = 'flex';
@@ -99,5 +100,8 @@ contactForm.addEventListener('submit', (event) => {
   
   if(isItLowercase(emailContactForm.value.trim())){
     contactForm.submit();
+    messageError.style.display = 'none';
+  } else {
+    messageError.style.display = 'block';
   }
 });
