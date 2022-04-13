@@ -1,4 +1,4 @@
-import { dataProjects } from './data.js';
+import dataProjects from './data.js';
 
 const menuButton = document.getElementById('menu-button');
 const mobileMenu = document.getElementById('mobile-menu');

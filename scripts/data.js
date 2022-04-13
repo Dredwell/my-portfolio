@@ -5,7 +5,7 @@ const dataProjects = [{
   tags: ['Ruby on Rails', 'JavaScript', 'CSS'],
   text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto ullam repudiandae nesciunt natus vitae a commodi, dicta optio ex dolor amet quo odio nam voluptatum magnam repellendus deleniti veritatis obcaecati? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus distinctio maiores, reiciendis tempora asperiores nulla odit quo vero veritatis ex magnam quos, alias, ipsa officia. Voluptate doloremque natus iste maiores!',
   liveUrl: 'dredwell.github.io/my-portfolio',
-  sourceUrl: 'https://github.com/Dredwell/my-portfolio'
+  sourceUrl: 'https://github.com/Dredwell/my-portfolio',
 },
 {
   imgUrl: './media/Snapshoot-Portfolio.png',
@@ -14,7 +14,7 @@ const dataProjects = [{
   tags: ['Ruby on Rails', 'JavaScript', 'CSS', 'HTML'],
   text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto ullam repudiandae nesciunt natus vitae a commodi, dicta optio ex dolor amet quo odio nam voluptatum magnam repellendus deleniti veritatis obcaecati?',
   liveUrl: 'dredwell.github.io/my-portfolio',
-  sourceUrl: 'https://github.com/Dredwell/my-portfolio'
+  sourceUrl: 'https://github.com/Dredwell/my-portfolio',
 },
 {
   imgUrl: './media/Snapshoot-Portfolio.png',
@@ -23,7 +23,7 @@ const dataProjects = [{
   tags: ['Ruby on Rails', 'JavaScript', 'CSS', 'Ruby'],
   text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto ullam repudiandae nesciunt natus vitae a commodi, dicta optio ex dolor amet quo odio nam voluptatum magnam repellendus deleniti veritatis obcaecati? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus distinctio maiores, reiciendis tempora asperiores nulla odit quo vero veritatis ex magnam quos, alias, ipsa officia. Voluptate doloremque natus iste maiores!',
   liveUrl: 'dredwell.github.io/my-portfolio',
-  sourceUrl: 'https://github.com/Dredwell/my-portfolio'
+  sourceUrl: 'https://github.com/Dredwell/my-portfolio',
 },
 {
   imgUrl: './media/Snapshoot-Portfolio.png',
@@ -32,7 +32,7 @@ const dataProjects = [{
   tags: ['Ruby on Rails', 'JavaScript', 'CSS'],
   text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto ullam repudiandae nesciunt natus vitae a commodi, dicta optio ex dolor amet quo odio nam voluptatum magnam repellendus deleniti veritatis obcaecati? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus distinctio maiores, reiciendis tempora asperiores nulla odit quo vero veritatis ex magnam quos, alias, ipsa officia. Voluptate doloremque natus iste maiores!',
   liveUrl: 'dredwell.github.io/my-portfolio',
-  sourceUrl: 'https://github.com/Dredwell/my-portfolio'
+  sourceUrl: 'https://github.com/Dredwell/my-portfolio',
 },
 {
   imgUrl: './media/Snapshoot-Portfolio.png',
@@ -41,7 +41,7 @@ const dataProjects = [{
   tags: ['Ruby on Rails', 'JavaScript', 'CSS'],
   text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto ullam repudiandae nesciunt natus vitae a commodi, dicta optio ex dolor amet quo odio nam voluptatum magnam repellendus deleniti veritatis obcaecati?',
   liveUrl: 'dredwell.github.io/my-portfolio',
-  sourceUrl: 'https://github.com/Dredwell/my-portfolio'
+  sourceUrl: 'https://github.com/Dredwell/my-portfolio',
 },
 {
   imgUrl: './media/Snapshoot-Portfolio.png',
@@ -50,7 +50,7 @@ const dataProjects = [{
   tags: ['Ruby on Rails', 'JavaScript', 'CSS'],
   text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto ullam repudiandae nesciunt natus vitae a commodi, dicta optio ex dolor amet quo odio nam voluptatum magnam repellendus deleniti veritatis obcaecati?',
   liveUrl: 'dredwell.github.io/my-portfolio',
-  sourceUrl: 'https://github.com/Dredwell/my-portfolio'
+  sourceUrl: 'https://github.com/Dredwell/my-portfolio',
 }];
 
 export default dataProjects;
