@@ -21,9 +21,16 @@ for (let i = 0; i < navElements.length; i += 1) {
 const projectButtons = document.getElementsByClassName('see-project-button');
 const popupWindow = document.getElementById('popup-window');
 const closeWindow = document.getElementById('close-icon');
+const closeWindowDesktop = document.getElementById('close-icon-desktop');
 
 closeWindow.addEventListener('click', () => {
   popupWindow.style.display = 'none';
+  document.getElementById('popup-background').style.display = 'none';
+});
+
+closeWindowDesktop.addEventListener('click', () => {
+  popupWindow.style.display = 'none';
+  document.getElementById('popup-background').style.display = 'none';
 });
 
 for (let i = 0; i < projectButtons.length; i += 1) {
@@ -36,11 +43,24 @@ for (let i = 0; i < projectButtons.length; i += 1) {
       }
       return str;
     }
-    document.getElementById('popup-project-image').src = dataProjects[i].imgUrl;
+
+    if(window.screen.width > 768) {
+      document.getElementById('popup-project-image').src = dataProjects[i].imgUrlDesktop;    
+    } else {
+      document.getElementById('popup-project-image').src = dataProjects[i].imgUrl;
+    }
+
     document.getElementById('popup-title').innerHTML = dataProjects[i].projectTitle;
     document.getElementById('languages').innerHTML = language();
     document.getElementById('popup-info').innerHTML = dataProjects[i].text;
+    
+    document.getElementById('popup-background').style.display = 'block';
     popupWindow.style.top = `${window.scrollY}px`;
-    popupWindow.style.display = 'flex';
+
+    if (window.screen.width > 768) {
+      popupWindow.style.display = 'grid';
+    } else {
+      popupWindow.style.display = 'flex';
+    }
   });
 }
