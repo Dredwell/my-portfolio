@@ -91,7 +91,7 @@ const isItLowercase = (email) => {
   if (validateEmailLowercase.test(email)) {
     return false;
   }
-    return true;
+  return true;
 };
 
 contactForm.addEventListener('submit', (event) => {
