@@ -101,7 +101,9 @@ contactForm.addEventListener('submit', (event) => {
   if(isItLowercase(emailContactForm.value.trim())){
     contactForm.submit();
     messageError.style.display = 'none';
+    emailContactForm.className =  'email';
   } else {
     messageError.style.display = 'block';
+    emailContactForm.className =  'email error';
   }
 });

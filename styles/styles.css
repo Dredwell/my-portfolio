@@ -475,6 +475,12 @@ footer {
   box-sizing: border-box;
 }
 
+.error{
+  border-color: #ff0000;
+  border-width: 1px;
+  border-style: solid;
+}
+
 .message {
   height: 114px;
   resize: none;
