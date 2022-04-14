@@ -88,22 +88,20 @@ for (let i = 0; i < projectButtons.length; i += 1) {
 const isItLowercase = (email) => {
   const validateEmailLowercase = new RegExp(/[A-Z]/g);
 
-  if(validateEmailLowercase.test(email)){
+  if (validateEmailLowercase.test(email)) {
     return false;
-  } else {
-    return true;
   }
+    return true;
 };
 
 contactForm.addEventListener('submit', (event) => {
   event.preventDefault();
-  
-  if(isItLowercase(emailContactForm.value.trim())){
+  if (isItLowercase(emailContactForm.value.trim())) {
     contactForm.submit();
     messageError.style.display = 'none';
-    emailContactForm.className =  'email';
+    emailContactForm.className = 'email';
   } else {
     messageError.style.display = 'block';
-    emailContactForm.className =  'email error';
+    emailContactForm.className = 'email error';
   }
 });

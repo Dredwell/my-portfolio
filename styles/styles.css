@@ -356,7 +356,7 @@ a:active {
 
 #message-error {
   display: none;
-  color: #ff0000;
+  color: #f00;
   text-align: center;
 }
 
@@ -475,8 +475,8 @@ footer {
   box-sizing: border-box;
 }
 
-.error{
-  border-color: #ff0000;
+.error {
+  border-color: #f00;
   border-width: 1px;
   border-style: solid;
 }
