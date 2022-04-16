@@ -354,6 +354,12 @@ a:active {
   box-shadow: 0 8px 16px rgba(54, 179, 127, 0.24);
 }
 
+#message-error {
+  display: none;
+  color: #f00;
+  text-align: center;
+}
+
 .see-project-button:active,
 .about-me-button:active,
 .submit-button:active {
@@ -467,6 +473,12 @@ footer {
   border: 1px solid #d0d9d4;
   padding: 15px;
   box-sizing: border-box;
+}
+
+.error {
+  border-color: #f00;
+  border-width: 1px;
+  border-style: solid;
 }
 
 .message {
